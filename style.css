@@ -1,0 +1,1133 @@
+:root{
+    --primary_color: #6588A6;
+    --secundary_color: #9CC1D9;
+    --backgraund_color: #f2f2f2;
+}
+
+
+html {
+    scroll-behavior: smooth;    
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: var(--backgraund_color);
+    font-size: 93%;
+}
+
+/* Resto de los estilos */
+
+
+/*  Aca organizamos los iconos y los accesos rapidos */
+
+.header{
+    background-color: var(--primary_color);
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    top: 0;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    font-size: large;
+}
+
+.logo_sale img{
+  padding: 25px;
+  width: 200px;
+}
+
+.left a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.left img{
+  width: 200px;
+}
+
+.left > *{
+  margin: auto;
+  padding: 10PX 12px 10px 13px;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+
+}
+
+.rigth a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.rigth{
+  padding: 10px 35px 10px 35px;
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  padding: 0px 0px 20px 0px;
+}
+
+.menu-item{
+  padding: 0px 24px 0px 1px;
+}
+
+.menu-alternativo{
+    visibility: hidden;
+}
+
+.close-button{
+    visibility: hidden;
+}
+/** Fin del header **/
+
+
+/* Estilos para el menú */
+
+.left nav img{
+    width: 0%;
+    height: 0px;
+  }
+
+
+/**  personalizacion del contenido inicial, lo que se ve al entrar a la pagina **/
+
+.container{
+    margin: 125px 150px 110px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.container-left a{
+    padding: 4px;
+    color: #000;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.container-left{
+    font-weight: bold;
+    margin: 0px 25px 0px 155px;
+    width: 45%;
+    height: 250px;
+    text-align: justify;
+    font-size: 1.8em;
+    align-items: center;
+}
+
+.container-rigth{
+    align-items: center;
+    display: flex;
+    bottom: 550px;
+    height: auto;
+    width: auto;
+}
+
+.demo img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: auto;
+    width: 400px;
+}
+
+.boton_solicitar a{
+    margin-left: 4px;
+    margin-top: 15px;
+    background-color: var(--secundary_color);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.78em;
+    font-weight: bolder;
+}
+
+.saber_mas{
+    margin: 4px;
+    height: 45px;
+}
+
+.texto{
+   display: flex;
+}
+
+/** Aca termina la prate principal de la pagina **/
+
+
+/** Personalizacion de las funciones y de la imagen del fondo  **/
+
+.funcion{
+    font-size: 23px;
+}
+
+.fondo_funcion{
+    margin: auto;
+    width: 100%;
+    height: 800px;
+    position:absolute;
+    color: #fff;
+    background-image: url(/casillero\ 1.png);
+    background-color: #fffa;
+    background-size:cover;
+    background-position: top;
+    background-attachment: fixed;
+
+}
+
+.funcion_fondo_izquierda{
+    height: 100%;
+    width: 100%;
+}
+
+.funcion_fondo_derecha{
+    height: 100%;
+    width: 50%;
+    margin-left: 50%;
+
+}
+
+.titulo_funcion{
+    text-align: center;
+    margin: auto;
+    padding-top: 215px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.subtitulo_funcion{
+    padding: 0;
+    text-align: center;
+    font-size: 1.01em;
+}
+
+.lista_funcion{
+    font-size: 0.90em;
+}
+
+/** aca acaba las funciones **/
+
+
+/** aca estan las partes de nuestro producto **/
+
+.partes{
+    margin-top: 980px;
+    text-align: left;
+
+}
+
+.titulo_partes{
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 100px;
+    padding-left: 730px;
+    padding-bottom: 40px;
+}
+
+.info_ai, .info_ad, .info_di, .info_dd {
+    font-size: 1.3em;
+}
+
+.titulo_ai, .titulo_ad, .titulo_di, .titulo_dd{
+    color: var(--primary_color);
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+
+.partes_arriba{
+    display: flex;
+    text-align: center;
+}
+
+.partes_abajo{
+    display: flex;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+
+/* iconos */
+
+.arriba_izquierda img{
+    height: 70px;
+    padding: 10px 89px;
+    display: flex;
+}
+
+.arriba_derecha img{
+    height: 70px;
+    padding: 10px 92px;
+    display: flex;
+}
+
+.abajo_izquierda img{
+    display: flex;
+    height: 70px;
+    padding: 10px 90px;
+}
+
+.abajo_derecha img{
+    display: flex;
+    height: 70px;
+    padding: 10px 91px;
+}
+
+/* fin iconos */
+
+.fondo_gradiente{
+    background: radial-gradient(
+        circle, /* Hace que el gradiente sea circular */
+        #9CC1D9 10%, /* Color rojo en el centro */
+        #f2f2f2 50% /* Color transparente en el borde */
+    );
+}
+
+.casillero_partes img{
+    width: 400px;
+    height: auto;
+    margin-left: 15px;
+    /* linear-gradient: (to right, rgb(165, 243, 252), rgb(34, 211, 238)) */
+    /* box-shadow: 0 0 500px 0 #9CC1D9; */
+}
+
+.arriba_izquierda{
+    width: 300px;
+    margin: 0px 0px 0px 300px;
+}
+
+.arriba_derecha{
+    margin: 0 0 0 630px;
+}
+
+.abajo_izquierda{
+    margin: 0px 0px 0px 350px;
+}
+
+.abajo_derecha{
+    margin: 0 0 0 585px;
+}
+
+.abajo_derecha, .abajo_izquierda, .arriba_derecha, .arriba_izquierda{
+    width: 240px;
+    height: auto;
+} 
+
+/** empiezan los objetivos**/
+
+
+/** aca ponemos el fondo del titulo de los objetivos **/
+
+.objetivo_fondo{
+    width: 100%;
+    height: 500px;
+    font-weight: bold;
+    position:absolute;
+    color: #fffa;
+    background-image: url(/casillero\ 1_2.png);
+    background-size:cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.color_objetivo{
+    height: 100%;
+    width: 100%;
+    background-color: #555a;
+}
+
+.titulo_objetivo{
+    font-size: 2.5em;
+    padding-top: 245px;
+    text-align: center;
+    color: #fff;
+}
+
+.objetivo{
+    color: #000;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    display: flex;
+    padding-top: 60px;
+    margin: 15px ;
+}
+
+.obj_esp{
+    padding: 18px 20px 60px 20px;
+    background-image: #f2f2f2;
+    background-size: 340px;
+    background-repeat: no-repeat;
+    font-weight: normal;
+    font-size: larger;
+    height: 90px;
+    margin: 0px 0px;
+    width: 1000px;
+}
+
+.obj_esp p{
+    font-weight: bold;
+}
+
+.obj_esp img{
+    width: 110px;
+    height: auto;
+    margin: 0px 0px 15px 0px;
+}
+/** aca termina el objetivo **/
+
+
+/** aca es el footer osea el pie de pagina **/
+
+.footer{
+    margin-top: 1000px;
+    color: #fff;
+    background-color: var(--primary_color);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.titulo_fort{
+    margin: 20px 0px 25px 0px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.descripcion{
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.arriba_footer, .abajo_footer{
+    color: #fff;
+    padding: 10px;
+}
+
+.arriba_footer, .abajo_footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.abajo_footer ul{
+    text-decoration: none;
+
+}
+
+.abajo_footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #597892;
+    font-size: medium;
+}
+
+.footer_ad ul{
+    list-style: none;
+    display: flex;
+}
+
+.footer_ad li{
+    color: #ffff;
+    margin-right: 5px;
+    padding-right: 25px;
+}
+
+.footer_ai{
+    padding: 15px;
+}
+
+
+/* .footer_ai a{  
+
+} */
+
+/* aca termina el footer */   
+
+
+
+/* laptop/notebook */
+@media screen and (max-width: 1930px) {
+    body{
+        background-color: #f2f2f2;
+    }   
+
+    .fondo_funcion{
+        height: 860px;
+    }
+
+    .comprar{
+        background-color: red;
+        font-size: 0px;
+    }
+    
+    .abajo_derecha, .abajo_izquierda, .arriba_derecha, .arriba_izquierda{
+        width: 340px;
+        height: auto;
+    }
+
+    .titulo_partes{
+        font-size: 1.8em;
+        font-weight: bold;
+        padding-top: 150px;
+        padding-left: 700px;
+        padding-bottom: 40px;
+    }
+    
+    .info_ai, .info_ad, .info_di, .info_dd {
+        font-size: 16.5px;
+    }
+
+    .casillero_partes{
+        width: 350px;
+        height: auto;
+        margin-left: 625px; 
+    }
+
+    .arriba_derecha img{
+        margin: 0px 0px 0px 47px;
+    }
+   
+    .arriba_izquierda{
+        margin: 0px 0px 0px 210px;
+    }
+    
+    .arriba_izquierda img{
+        margin: 0px 0px 0px 45px;
+    }
+    
+    .abajo_derecha{
+        margin: 0px 0px 0px 650px;
+    }
+
+    .abajo_derecha img{
+        margin: 0px 0px 0px 47px;
+    }
+   
+    .abajo_izquierda{
+        margin: 0px 0px 0px 210px;
+    }
+    
+    .abajo_izquierda img{
+        margin: 0px 0px 0px 47px;
+    } 
+
+
+    /* footer */
+
+    .footer{
+        margin-top: 1000px;
+        color: #fff;
+        background-color: var(--primary_color);
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .titulo_fort{
+        margin: 17px 0px 25px 0px;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    
+    .descripcion{
+        margin-bottom: 35px;
+        font-size: large;
+    }
+    
+    .arriba_footer, .abajo_footer{
+        color: #fff;
+        padding: 5px;
+    }
+    
+    .arriba_footer, .abajo_footer a{
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .abajo_footer ul{
+        text-decoration: none;
+        font-size: 1.05em;
+    
+    }
+    
+    .abajo_footer{
+        display: flex;
+        justify-content: space-between;
+        background-color: #597892;
+        font-size: medium;
+    }
+    
+    .footer_ad ul{
+        list-style: none;
+        display: flex;
+    }
+    
+    .footer_ad li{
+        color: #ffff;
+        margin-right: 5px;
+        padding-right: 25px;
+    }
+    
+    .footer_ai{
+        padding: 15px;
+    }
+    
+}
+
+
+/* Celular */
+@media only screen and (max-width: 768px){ 
+
+    body, html  {
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+        width: 100vh;
+        overflow-x: hidden; 
+    }
+    
+    .close_nav{
+        background-color: #000;
+    }
+
+    .solicitud{
+        visibility: hidden;
+    }
+
+    .header{
+        background-color: var(--primary_color);
+        width: 100%;
+        height: 115px;
+        margin: 0;
+        top: 0;
+        padding: 4px;
+        align-items: center;
+        z-index: 1000;
+        font-size: large;
+    }
+    .left{
+        width: 35%;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .rigth{
+        margin-left: 1vh;
+        margin-right: 5vh;
+        width: 35%;
+    }
+
+    .logo_sale img{
+        padding: 4%;
+        margin-left: 15vh;
+        width: 150px;
+    }
+    
+    .left img{
+        margin-left: 8.5vh;
+        width: 200px;
+    }
+    
+
+    /* Estilos para el menú */
+
+    .left nav img{
+        margin: 0;
+        top: 5vh;
+        left: 3.5vh;
+        width: 6%;
+        height: auto;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100%;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        padding: 70px;
+        box-sizing: border-box;
+        text-align: center;
+        overflow-x: hidden;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 10;
+    }
+
+    #menuImg {
+        visibility: visible;
+        cursor: pointer;
+    }
+
+    .menu.show {
+        display: block;
+        transform: translateX(0);
+    }
+
+    .menu-hide {
+        transform: translateX(100%);
+    }
+
+    .menu #boton-comprar{
+        display: block;
+        font-size: 2em;
+        color: #ababab;
+        text-decoration: none;
+        background-color: transparent;
+        margin-top: 70px;
+        margin-right: 20px;
+    }
+
+
+    .menu-item {
+        margin-bottom: 30px;
+    }
+
+    .menu-item a {
+        font-size: 2em;
+        color: #777;
+        text-decoration: none;
+    }
+
+    /* Estilos para la imagen del menu alternativo */
+
+    .menu-alternativo {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 100;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    .menu-alternativo:hover {
+        opacity: 0.8;
+    }
+
+    .section1, .section2, .section3{
+        margin-top: 1000px;
+    }
+
+    /* estilo del contenido principar */
+
+    .container{
+        margin-bottom: 15vh;
+        margin-top: 28vh;
+        margin-left: 11vh;
+        margin-right: 11vh;
+        width: 78%;
+        flex-direction: column;
+        padding-bottom: 11.7%;
+        align-items: center;
+    }
+    
+    .container-left a{
+        color: #000;
+        font-size: 1em;
+        font-weight: normal;
+    }
+    
+    .container-left{
+        order: 2;
+        font-weight: bold;
+        margin: 0px 0px 0px 0px;
+        padding-bottom: 8%;
+        width: 100%;
+        height: auto;
+        text-align: justify;
+        font-size: 2em;
+        align-items: center;
+    }
+    
+    .demo img{
+        order: 1;
+        height: auto;
+        width: 60%;
+        margin-top: 0;
+        margin-bottom: 80px;
+        margin-left: 19%;
+    }
+    
+    .boton_solicitar a{
+        margin-left: 4px;
+        background-color: var(--secundary_color);
+        text-decoration: none;
+        color: #fff;
+        border-radius: 8px;
+        font-size: 0.78em;
+        font-weight: bolder;
+        padding: 7px;
+    }
+    
+    .saber_mas{
+        font-size: 0.9em;
+        margin: 4px;
+        margin-top: 0;
+        height: 45px;
+        margin-bottom: 5px;
+    }
+    
+    .texto{
+       display: flex;
+       width: 100%;
+    }
+
+    /* fin del contenido principar */
+
+
+    /* Estilo para las funciones */
+    
+    .funcion{
+        font-size: 23px;
+    }
+    
+    .fondo_funcion{
+        margin: auto;
+        width: 100%;
+        height: 790px;
+        position:relative;
+        color: #f2f2f2;
+        background-image: url(/casillero\ 1.png);
+        background-color: #fffa;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        
+    }
+
+    
+    .funcion_fondo_izquierda{
+        height: 100%;
+        width: 100%;
+        background-color: #0003;
+    }
+    
+    .funcion_fondo_derecha{
+        height: 100%;
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .titulo_funcion{
+        text-align: center;
+        margin: auto;
+        padding-top: 170px;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    
+    .subtitulo_funcion{
+        padding: 0;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    
+    .lista_funcion{
+        font-size: 1em;
+    }
+    
+    /* Fin de las funciones */
+
+    
+    /** inicio de los componentes **/
+
+    .partes{
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .titulo_partes{
+        font-size: 1.8em;
+        font-weight: bold;
+        margin-top: 100px;
+        padding: 50px;
+        text-align: center  ;
+        padding-bottom: 40px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .info_ai, .info_ad, .info_di, .info_dd {
+        font-size: 1.3em;
+        margin-left: 40px;
+    }
+
+    .titulo_ai, .titulo_ad, .titulo_di, .titulo_dd{
+        color: var(--primary_color);
+        font-size: 1.4em;
+        text-align: center;
+        padding-bottom: 12px;
+        font-weight: bold;
+        margin: 40px 0px 0px 40px;
+    }
+
+    .partes_arriba{
+        display: flex;
+        text-align: center;
+        margin-right: 30vh;
+    }
+
+    .partes_abajo{
+        display: flex;
+        text-align: center;
+        padding-bottom: 100px;
+        margin-right: 30vh;
+    }
+
+    /* iconos */
+
+    .arriba_izquierda img{
+        height: 70px;
+        padding: 10px 82px;
+        display: flex;
+    }
+
+    .arriba_derecha img{
+        height: 70px;
+        padding: 10px 82px;
+        display: flex;
+    }
+
+    .abajo_izquierda img{
+        display: flex;
+        height: 65px;
+        padding: 10px 80px;
+    }
+
+    .abajo_derecha img{
+        display: flex;
+        height: 70px;
+        padding: 10px 80px;
+    }
+
+    /* fin iconos */
+
+    .casillero_partes img{
+        width: 360px;
+        height: auto;
+        margin-left: 5vh;
+    }
+
+    .abajo_derecha, .abajo_izquierda, .arriba_derecha, .arriba_izquierda{
+        width: 350px;
+        height: auto;
+    } 
+    
+    .arriba_izquierda{
+        margin: 0px 0px 0px 0px;
+    }
+
+    .arriba_derecha{
+        margin: 0 0 0 0px;
+    }
+
+    .abajo_izquierda{
+        margin: 0px 0px 0px 0px;
+    }
+
+    .abajo_derecha{
+        margin: 0px 0px 0px 0px;
+    }
+
+    /* Fin de lo componentes */
+
+
+    /** empiezan los objetivos**/
+
+    .objetivo_fondo{
+        width: 100%;
+        margin-top: 20px;
+        height: 550px;
+        font-weight: bold;
+        position:relative;
+        color: #fffa;
+        background-image: url(/casillero\ 1_2.png);
+        background-size:cover;
+        background-position: top;
+        background-attachment: fixed;
+    }
+    .obj_esp{
+        margin-left: 20vh;
+        background-image: #f2f2f2;
+        background-size: 340px;
+        background-repeat: no-repeat;
+        font-weight: normal;
+        font-size: larger;
+        height: 190px;
+        width: 400px;
+    }
+    .obj_esp p{
+        font-weight: bold;
+    }
+    .obj_esp img{
+        width: 110px;
+        height: auto;
+        margin: 0px 0px 15px 0px;
+    }
+
+    /* fin de los objetivos */
+
+    /* inicio de el footer */
+
+    .footer{
+        margin-top: 1500px;
+    }
+
+    /* fin del footer */
+
+
+    /* orden de los elementos */
+
+    .fondo_gradiente {
+        margin-bottom: 0px;
+        background: radial-gradient(
+            circle at 50% 25%, /* Ajusta la posición del centro del círculo */
+            #9CC1D9 10%, /* Color más intenso en el centro */
+            #f2f2f2 30% /* Color más claro en el borde */
+        );
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo_partes{
+        order: 1;
+    }
+
+    .casillero_partes{
+        order: 2;
+        margin-top: 20px;
+        margin-left: 180px;
+    }
+
+    .partes_arriba{
+        order: 3;
+    }
+
+    .partes_abajo{
+        order: 4;
+    }
+    
+    .partes_arriba{
+        display: flex;
+        flex-direction: column;
+        margin-left: 205px;
+        margin-top: 60px;
+    }
+
+    .arriba_izquierda{
+        order: 1;
+    }
+
+    .arriba_derecha{
+        order: 2;
+    }
+
+    .partes_abajo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 205px;
+    }
+
+    .abajo_izquierda{
+        order: 1;
+    }
+
+    .abajo_derecha{
+        order: 2;
+    }
+
+    .objetivo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .obj_esp{
+        order: 1;
+    }
+
+    /* fin de los ordenes */
+}
+
+
+/* pc*/
+@media screen and (min-width: 1920px) {  
+    body{
+        background-color: #f2f2f2;
+    }    
+
+    .comprar{
+        background-color: red;
+        font-size: 0px;
+    }
+
+    .abajo_derecha, .abajo_izquierda, .arriba_derecha, .arriba_izquierda{
+        width: 340px;
+        height: auto;
+    }
+
+    .titulo_partes{
+        font-size: 1.8em;
+        font-weight: bold;
+        padding: 150px;
+        padding-left: 800px;
+        padding-bottom: 40px;
+    }
+
+    /* .arriba_derecha{
+        
+    }  */
+    .casillero_partes{
+        width: 450px;
+        height: auto;
+        margin-left: 725px; 
+    }
+
+    .arriba_derecha img{
+        margin: 0px 0px 0px 50px;
+    }
+   
+    .arriba_izquierda{
+        margin: 0px 0px 0px 310px;
+    }
+    
+    .arriba_izquierda img{
+        margin: 0px 0px 0px 50px;
+    }
+    
+    .abajo_derecha{
+        margin: 0px 0px 0px 650px;
+    }
+
+    .abajo_derecha img{
+        margin: 0px 0px 0px 45px;
+    }
+   
+    .abajo_izquierda{
+        margin: 0px 0px 0px 310px;
+    }
+    
+    .abajo_izquierda img{
+        margin: 0px 0px 0px 50px;
+    }
+}  
+
+/* Ensure images are responsive */
+/* img {
+    max-width: 100%;
+    height: auto;
+} */

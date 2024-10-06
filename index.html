@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>FortBox</title>
+</head>
+<body>
+<!-- Aca empieza el header de la pagina, donde ponemos los accesos rapidos -->
+    <header class="header">
+        <div class="left">
+            <img src="logo.svg" alt="logo" class="logo">
+            <nav class="menu_img">
+                <img src="menu.png" class="menu-alternativo" alt="Menú" id="menuImg">
+                <div class="menu" id="navMenu">
+                    <div class="menu-item"><a href="#top">Inicio</a></div>
+                    <div class="menu-item"><a href="#funcion">Funciones</a></div>
+                    <div class="menu-item"><a href="#componentes">Componentes</a></div>
+                    <div class="menu-item"><a href="#objetivo">Objetivos</a></div>
+                    <div class="menu-item"><a href="quienes_somos.html">Quienes somos</a></div>
+                    <a href="#" class="comprar" id="boton-comprar" onclick="abrirVentanaEmergente('FortBox_solicitud.html'); return false;" >Solicitar Tarjeta</a>
+                </div>
+            </nav>
+        </div>
+        <div class="rigth">
+            <div class="logo_sale">
+                <a href="https://salesianito.edu.py" target="_blank">
+                    <img src="https://salesianito.edu.py/wp-content/uploads/2022/12/Copia-de-Copia-de-Se-parte-de-la-Familia-del-Salesianito-4240-%C3%97-1080-px.png" alt="">
+                </a>
+            </div>
+            <div class="solicitud">
+                <a href="#" onclick="abrirVentanaEmergente('/FortBox_solicitud.html'); return false;" >Solicitar Tarjeta</a>
+            </div>
+        </div>
+    </header>
+<!-- Aca termina el header de la pagina -->
+    
+<!-- Empieza el contenido del inicio, osea la imagen y una pequeña informacion -->
+    <main>
+        <section class="container" id="inicio">
+            <div class="container-left">
+                <div class="texto">
+                    Protege tus pertenecias con FortBox, que implementa una tarjeta de bloqueo para tu casillero...
+                </div>
+                <br>
+                <div class="saber_mas">
+                    <a href="#funcion">Saber más...</a>
+                </div>
+                <div class="boton_solicitar">
+                    <a href="#" onclick="abrirVentanaEmergente('/FortBox_solicitud.html'); return false;" >Solicitar Tarjeta</a>
+                </div>
+            </div>
+
+            <div class="container-rigth">
+                <div class="demo">
+                    <img src="casillero_Transparente_celeste.png" alt="">
+                </div>
+            </div>   
+        </section>
+<!-- Aca termina el contenido del inicio -->
+
+<!-- Empieza las funciones -->
+        <section class="funcion" id="funcion">
+            <div class="fondo_funcion" >
+                <div class="funcion_fondo_izquierda">
+                    <div class="funcion_fondo_derecha">
+                        <div class="titulo_funcion">
+                            Funciones
+                        </div>
+                        <br>
+                        <div class="subtitulo_funcion">
+                            Cada usuario tiene una tarjeta personal para desbloquear su propio casillero.
+                        </div>
+                        <br>
+                        <div class="lista_funcion">
+                            <ul>
+                                <li>
+                                    Pantalla que indica el estado de apertura del casillero.
+                                </li>
+                                <br>
+                                <li>
+                                    Sonidos y luces LED que indican el estado de apertura.
+                                </li>
+                                <br>
+                                <li>
+                                    Desbloqueo mediante una tarjeta RFID.
+                                </li>
+                                <br>
+                                <li>
+                                    Resguarda de manera de segura 
+                                </li>
+                                <br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+<!-- Termina las funciones -->
+
+<!-- Explicamo los componentes de nuestro producto -->
+        <section class="partes" id="componentes">
+            <div class="fondo_gradiente">
+                <div class="titulo_partes">
+                    <div class="partes_medio_arriba">
+                        FortBox - Especificaciones
+                    </div>
+                </div>
+                <div class="partes_arriba">
+                    <div class="arriba_izquierda">
+                        <ion-icon name="hardware-chip-outline" class="feature"></ion-icon>
+                        <div class="titulo_ai">
+                            <img src="imagen_arduino.svg" alt="Arduino">
+                            Microcontrolador Arduino
+                        </div>
+                        <div class="info_ai">
+                            Actúa como el cerebro del sistema, controlando el desbloqueo del casillero mediante la información recibida.
+                        </div>
+                    </div>
+                    <div class="arriba_derecha">
+                        <div class="titulo_ad">
+                            <img src="imagen_tarjeta.svg" alt="">
+                            Tarjetas RFID
+                        </div>
+                        <div class="info_ad">
+                            Actúan como llaves electrónicas, cuyo escaneo asegura la entrada del usuario autorizado.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="casillero_partes">
+                    <img src="casillero_Transparente.png" alt="">
+                </div>
+
+                <div class="partes_abajo">
+                    <div class="abajo_izquierda">
+                        <div class="titulo_di">
+                            <img src="rfidsign_rfi_13599.png" alt="" width="">
+                            Sensor RFID
+                        </div>
+                        <div class="info_di">
+                            Captura los datos de las tarjetas de manera rápida, agilizando el acceso eficiente al casillero.
+                        </div>
+                    </div>
+                
+                    <div class="abajo_derecha">
+                        <div class="titulo_dd">
+                                <img src="imagen_pantalla.svg" alt="">
+                                Pantalla LCD
+                        </div>
+                        <div class="info_dd">
+                            Ofrece una interfaz clara y sencilla, mostrando mensajes de estado en tiempo real.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Aca termina -->
+
+<!-- Titulo de los objetivos -->
+<section class="objetivo_fondo" id="objetivo">
+    <div class="color_objetivo">
+        <div class="titulo_objetivo">
+            Objetivos del proyecto
+        </div>
+    </div>
+    <div class="objetivo">
+        <div class="obj_esp">
+            <img src="candado.svg" alt="Candado" class="candado">
+            <p>Seguridad de Objetos Personales</p>
+            Garantiza la seguridad de los objetos personales en protección contra accesos no deseados.
+        </div>
+        <div class="obj_esp">
+            <img src="mantenimiento.svg" alt="Mantenimiento">
+            <p>Garantia y mantenimiento</p>
+            Posee un sistema de mantenimiento técnico, y en caso de un desperfecto de fabrica cuenta con una garantia de cambio.
+        </div>  
+        <div class="obj_esp">
+            <img src="Tarjeta_icon.svg" alt="seguridad">
+            <p>Sistema de Desbloqueo por Tarjeta</p>
+            Permite el desbloqueo del casillero mediante una tarjetas.
+        </div>
+        <div class="obj_esp">
+            <img src="Altavoz.svg" alt="Altavoz">
+            <p>Alarma para Casilleros Violentados</p>
+            Cuenta con un sistema de alarma en caso de que el casillero sea violentado.
+        </div>
+        <div class="obj_esp">
+            <img src="llave.svg" alt="Llave">
+            <p>Acceso Alternativo en Caso de Fallo Eléctrico</p>
+            Cuenta con una llave manual para desbloquear el casillero en caso de falla de corriente.
+        </div>
+    </div>
+</section>
+</main>
+
+<!-- Aca esta el pie de pagina, una pequela informacion de nosotros -->
+    <footer class="footer">
+        <section class="arriba_footer">            
+            <div class="titulo_fort">
+                FortBox
+            </div>
+            <div class="descripcion">
+                Proporciona una experiencia sencilla al usuario mediante una tarjeta de desbloqueo reduciendo el riesgo de acceso a terceros.
+            </div>
+        </section>
+
+        <section class="abajo_footer">
+           <div class="footer_ai">
+                <a href="#top">&#169;FortBox 2024</a>
+           </div>
+
+           <div class="footer_ad">
+            <ul>
+                <li> <a href="quienes_somos.html">Quienes somos</a></li>
+                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=fortboxexpotec2024@gmail.com&su=Hola%2C%20me%20interesa%20saber%20más%20sobre%20el%20producto." target="_blank">Contacto</a></li>
+            </ul>
+           </div>
+
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
