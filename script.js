@@ -29,9 +29,9 @@ document.querySelector('.menu-alternativo').addEventListener('click', function()
     
     // Cambiar la imagen según el estado del menú
     if (menu.classList.contains('show')) {
-        menuImg.src = "/imagenes_iconos/close.png";  // Imagen de cerrar (cuando el menú está abierto)
+        menuImg.src = "close.png";  // Imagen de cerrar (cuando el menú está abierto)
     } else {
-        menuImg.src = "/imagenes_iconos/menu.png";  // Imagen de menú hamburguesa (cuando el menú está cerrado)
+        menuImg.src = "menu.png";  // Imagen de menú hamburguesa (cuando el menú está cerrado)
     }
 });
   
@@ -42,16 +42,16 @@ document.querySelectorAll('.menu-item a').forEach(function(element) {
         document.querySelector('.menu').classList.remove('show');
         
         // Cambiar la imagen a menú hamburguesa
-        document.getElementById('menuImg').src = "/imagenes_iconos/menu.png";
+        document.getElementById('menuImg').src = "menu.png";
     });
 });
 
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
-    document.getElementById("menuImg").src = "/imagenes_iconos/close.png";
+    document.getElementById("menuImg").src = "close.png";
 }
 
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
-    document.getElementById("menuImg").src = "/imagenes_iconos/menu.png";
+    document.getElementById("menuImg").src = "menu.png";
 }
