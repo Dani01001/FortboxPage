@@ -595,6 +595,10 @@ body{
         padding: 0;
         width: 100vh;
         overflow-x: hidden; 
+        zoom: 1;
+        -webkit-text-size-adjust: 100%;
+    }
+}
     }
     
     .close_nav{
