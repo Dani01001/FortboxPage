@@ -435,6 +435,7 @@ body{
 
     .footer{
         margin: 0;
-        margin-top: 50px;
+        bottom: 0;
+        margin-top: 25%px;
     }
 }
