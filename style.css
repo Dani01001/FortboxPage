@@ -2,8 +2,8 @@
     --primary_color: #6588A6;
     --secundary_color: #9CC1D9;
     --backgraund_color: #f2f2f2;
+    color-scheme: light;
 }
-
 
 html {
     scroll-behavior: smooth;    
